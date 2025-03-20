@@ -3,8 +3,8 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Additon: Math Murder",
    Icon = "plus", -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Rayfield Interface Suite",
-   LoadingSubtitle = "by Sirius",
+   LoadingTitle = "Welcome to Operation SuperHub!",
+   LoadingSubtitle = "Operation: Addition",
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
@@ -37,7 +37,7 @@ local Window = Rayfield:CreateWindow({
 local MainTab = Window:CreateTab("Main", "home")
 
 local Button = MainTab:CreateButton({
-   Name = "Reveal Answers.",
+   Name = "Reveal Answers",
    Callback = function()
    local qT = workspace.Map.Functional.Screen.SurfaceGui.MainFrame.MainGameContainer.MainTxtContainer.QuestionText  
 
